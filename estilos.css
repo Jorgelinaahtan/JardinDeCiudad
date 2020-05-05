@@ -1,0 +1,169 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+
+    /* ----- BODY ----- */
+body{
+    color: rgb(168, 168, 168);
+}
+
+    /* ----- HEADER : LOGO Y LOGIN ----- */
+header{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    /* margin-top: 30px;
+    margin-left: 190px; */
+    text-align: center;
+    
+}
+
+header a{
+    margin-left: 600px;
+    font-size: 30px;
+    text-decoration: none;
+    color: teal;
+ 
+}
+
+    /* ----- BARRA DE NAVEGACION ----- */
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+nav a{
+    color: rgb(49, 71, 82);
+    text-decoration: none;
+    font-size: 25px;
+    margin: 50px;
+    padding: 40px;
+}
+
+    /* ----- MAIN ----- */
+main{ 
+    /* background-color: rgb(230, 141, 141); */
+    min-height: 630px;
+    align-items: flex-start;
+    /* width: 1020px;
+    margin: auto; */
+    
+    padding: 10px;
+    box-sizing: border-box;
+    
+    
+}
+
+    /* ----- H1 ----- */
+main h1{
+    background-color:rgba(81, 99, 128, 0.712);
+    color: rgb(253, 253, 253) ;
+    text-align: center;
+    padding: 9px;
+    margin-bottom: 30px;
+    
+
+}
+
+    /* ----- H2 ----- */
+h2{
+    margin-left: 180px;
+}
+
+    /* ----- ARTICLE ----- */
+article{
+    /* background-color: rgb(195, 231, 220); */
+    width: 1020px;
+    margin:auto;
+    margin-bottom: 30px;
+
+
+}
+
+
+    /* ------ IMAGENES ------*/
+main img{
+    height: 500px;
+    margin-left: 180px;
+    padding-top: 30px;
+    
+
+}
+
+main #quienesSomos{
+    width: 350px;
+    height: 450px; 
+    margin: 10px;
+    margin-left: 200px;
+    padding: 10px;
+    
+    
+}
+
+article .producto{ 
+    height: 500px;
+
+
+}
+
+
+   /* ----- PARRAFOS  ----- */
+main p{ 
+    background-color: rgba(158, 177, 125, 0.541);
+    font-size: 25px;
+    color: black;
+    border-radius: 6px;
+    width: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 500px;
+    display: inline-block;
+}
+
+article .parrafoProducto{
+    background-color:rgba(158, 177, 125, 0.541);
+
+}
+article .parrafoPrecio{
+    background-color:rgba(81, 99, 128, 0.397);
+    border-radius: 5px;
+
+}
+   
+#formularioContacto{
+    margin-left: 500px;
+
+
+    /* background-image: url(/imagenes/contacto.jpg); */
+   
+    /* display: inline-block;*/
+} 
+
+
+    /* ------ FOOTER ------ */
+footer{
+    background-color: rgba(81, 99, 128, 0.712);
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: left;
+    margin-top: 10px;
+    color: white;
+
+}
+
+
+footer a{ 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-left: 700px;
+
+    
+   
+}
